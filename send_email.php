@@ -67,7 +67,7 @@ try {
    $mail->CharSet = 'utf-8';
    $mail->Host = 'smtp.office365.com';                    // Set the SMTP server to send through
    $mail->SMTPAuth = true;                                   // Enable SMTP authentication
-   $mail->Username = '*************';               // SMTP username
+   $mail->Username = 'cesar.w2000@hotmail.fr';               // SMTP username
    $mail->Password = '********';                               // SMTP password
    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted 'PHPMailer::ENCRYPTION_STARTTLS'
    $mail->Port = 587;
