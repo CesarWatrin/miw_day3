@@ -1,9 +1,231 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=yes">
+   <meta name="description" content="">
+   <style>
+
+   * {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+   }
+
+   .inner {
+      width: 700px;
+      margin: 0 auto;
+      height: 200px;
+      background-image: url("https://miw.asheart.fr/HTML2/3_TP_Emailing/img/Image1S.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+   }
+
+   .region_top {
+      text-align: right;
+      color: white;
+   }
+
+   div {
+      padding-top: 150px;
+      padding-right: 15px;
+      padding-bottom: 20px;
+   }
+
+   .places {
+      padding-top: 30px;
+      padding-bottom: 25px;
+      font-size: 18px;
+   }
+
+   .region_middle {
+      margin: 0 auto;
+      width: 800px;
+      background-color: #ffffff;
+   }
+
+   .region_svg {
+      width: 100%;
+   }
+
+   .region_svg td {
+      display: block;
+      width: 170px;
+      height: 140px;
+      margin: 40px auto;
+      padding: 1%;
+   }
+
+   .region_svg img {
+      width: 60px;
+      height: 60px;
+   }
+
+   .region_miss img {
+      width: 250px;
+   }
+
+   .region_miss td {
+      display: block;
+      margin: 5% auto;
+   }
+
+   .btn_inscription {
+      color: white;
+      border-radius: 10px;
+      height: 85px;
+      background-color: #C30078;
+   }
+
+   .btn_inscription h2 a {
+      color: white;
+      text-decoration: none;
+      padding: 27px 250px;
+   }
+
+   .region_contact {
+      width: 100%;
+      padding: 2rem 1rem;
+      font-weight: normal;
+      color: #354052;
+      background-color: #F5F5F5;
+   }
+
+   .social_media {
+      padding: 0 15px 15px 15px;
+   }
+
+   h1 {
+      color: #ffffff;
+   }
+
+   h2 {
+      font-size: 25px;
+      color: #354052;
+   }
+
+   p {
+      margin-top: 10px;
+      font-weight: lighter;
+      color: #666666;
+   }
+
+   a,a:hover {
+      text-decoration: inline;
+      color: #354052;
+   }
+
+   td,tr {
+      text-align: center;
+   }
+
+   table {
+      width: 100%;
+   }
+
+   @media screen and (min-width: 768px) {
+
+      .region_svg td {
+         display: inline-block;
+      }
+
+      .region_miss td {
+         display: inline-block;
+         width: 49%;
+      }
+
+      .btn_inscription h2 a {
+         padding: 30px 120px;
+      }
+
+      div, .region_middle {
+         width: 80%;
+         margin: 0 auto 50px auto;
+      }
+   }
+   </style>
+</head>
 <body>
-
-<strong>Let's party</strong>
-
-
+   <table class="inner">
+      <td class="region_top">
+         <div>
+            <h1 style="font-size: 70px;">XMAS PARTY</h1>
+            <h1 style="font-size: 30px;">Jeudi 19 dec. à Gap</h1>
+         </div>
+      </td>
+      <tr>
+         <td>
+            <table class="region_middle">
+               <td>
+                  <table>
+                     <td>
+                        <h2 class="places">!! PLACES LIMITÉES !!</h2>
+                        <h2>A La + Grosse Soirée Etudiante</h2>
+                     </td>
+                     <tr class="region_svg">
+                        <td>
+                           <img src="https://miw-day3.000webhostapp.com/svg/maps-and-flags.svg" alt="localisation">
+                           <p>1er étage<br>Batiment MIW<br>15/12/2019 à 20h</p>
+                        </td>
+                        <td>
+                           <img src="https://miw-day3.000webhostapp.com/svg/play-button.svg" alt="musique">
+                           <p>RnB, Hip Hop,<br>Latino, House,<br>Electro</p>
+                        </td>
+                        <td>
+                           <img src="https://miw-day3.000webhostapp.com/svg/euro-currency-symbol.svg" alt="argent">
+                           <p>15€ + 1 conso<br>(sur présentation de cet email)</p>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+               <tr>
+                  <td>
+                     <h2>La meilleur soirée étudiante de noël à Gap,<br> avec en guess star 4 navigatrices !</h2>
+                     <table>
+                        <tr class="region_miss">
+                           <td>
+                              <img src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/edge.jpg" alt="edge">
+                              <h2>Miss Edge</h2>
+                              <p>A besoin beaucoup d’attention !</p>
+                           </td>
+                           <td>
+                              <img src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/firefox.jpg" alt="firefox">
+                              <h2>Miss Firefox</h2>
+                              <p>Libre et sauvage, tel un renard !</p>
+                           </td>
+                           <td>
+                              <img src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/opera.jpg" alt="opera">
+                              <h2>Miss Opera</h2>
+                              <p>La norvégienne discrète et astucieuses</p>
+                           </td>
+                           <td>
+                              <img src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/safari.jpg" alt="safari">
+                              <h2>Miss Safari</h2>
+                              <p>Ne perd pas le Nord !</p>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <td class="btn_inscription">
+                  <h2><a href="#">Inscription sur @miw05</a></h2>
+               </td>
+            </table>
+         </td>
+      </tr>
+      <td>
+         <table>
+            <td class="region_contact">
+               <a href="#"><img class="social_media" src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/facebook.jpg" alt="facebook"></a>
+               <a href="#"><img class="social_media" src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/twitter.jpg" alt="twitter"></a>
+               <a href="#"><img class="social_media" src="https://miw.asheart.fr/HTML2/3_TP_Emailing/img/instagram.jpg" alt="instagram"></a>
+               <p><a href="#">Se désabonner</a></p>
+               <p>Copyright © 2020<strong> MIW’x. </strong>All Rights Reserved.</p>
+               <p>miw@miw.com | 06 07 08 09 10</p>
+            </td>
+         </table>
+      </td>
+   </table>
 </body>
 </html>
