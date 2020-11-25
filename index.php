@@ -50,7 +50,7 @@ if (!empty($_GET['delivery']) and $_GET['delivery'] === "sent") {
    }
 
    body {
-      background: url('img/background.png') no-repeat center center fixed;
+      background: url('img/background.jpeg') no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
