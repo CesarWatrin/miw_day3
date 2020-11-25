@@ -20,17 +20,16 @@ if (!empty($_GET['delivery']) and $_GET['delivery'] === "sent") {
    // echo "OK c'est envoyé..";
    $body_class = "delivery_sent";
 }
+?>
 
-
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
-
 <head>
    <title>Chritmas Party</title>
    <style type="text/css">
-
+   /* .delivery : lorsque le message a été envoyé */
    .delivery_sent .submit {
+      /* on enlève ce qui été précédemment écris */
       display: none;
    }
 
@@ -105,12 +104,9 @@ if (!empty($_GET['delivery']) and $_GET['delivery'] === "sent") {
    .sended {
       display: none;
    }
-
    </style>
-
 </head>
 <body class="<?= $body_class ?>">
-
    <form action="#" method="post">
       <div class="submit">
          <input type="email" name="email" placeholder="Ton email de star..." required/>
@@ -120,6 +116,5 @@ if (!empty($_GET['delivery']) and $_GET['delivery'] === "sent") {
          <img src="img/send2.png" alt="sended">
       </div>
    </form>
-
 </body>
 </html>
